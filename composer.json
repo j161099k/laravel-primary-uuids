@@ -1,0 +1,26 @@
+{
+    "name": "j1610/eloquent-primary-uuids",
+    "description": "Use UUIDs as primary keys in laravel models",
+    "autoload": {
+        "psr-4": {
+            "J1610\\EloquentPrimaryUuids\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pablo Jonhatan Solis Mendiola",
+            "email": "j161099@gmail.com"
+        }
+    ],
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "J1610\\EloquentPrimaryUuids\\EloquentPrimaryUuidsServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
